@@ -2,7 +2,7 @@
 
 $originalTitle = "Indiana Jones and the Last Crusade";  
   $viewMovie = true;  
-  $movieScore = "8.2";  
+  $movieScore = 8.2;  
   $releaseYear = 1989;
 
 echo $originalTitle . "\n";  
