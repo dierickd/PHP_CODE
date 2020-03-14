@@ -22,3 +22,26 @@ echo secretMessage("0@sn9sirppa@#?ia'jgtvryko1");
 
 --  --
 J'ai appris toutes les ficelles des strings
+
+# Poings, fouet, pistolet
+
+function fight()  
+{  
+    $weapons = ['fists', 'whip', 'gun'];  
+    $opponentWeapon = $weapons[rand(0,2)];  
+
+    switch ($opponentWeapon) {  
+        case 'fists':  
+            $indyWeapon = 'gun';  
+            break;  
+        case 'whip':  
+            $indyWeapon = 'fists';  
+            break;  
+        case 'gun':  
+            $indyWeapon = 'whip';  
+            break;  
+    }
+
+    return 'Indy: '.$indyWeapon.' ==> adversaire: '.$opponentWeapon;  
+}  
+echo fight();
