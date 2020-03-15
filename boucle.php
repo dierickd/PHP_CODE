@@ -20,6 +20,6 @@ $movies = [
     ]
 ];
 
-for($i=0; $i < count($movies); $i++):
-    echo "Dans le film ".$movies[$i]['movie_title']." , les principaux acteurs sont : ".name_of_the_actor_1.", ".name_of_the_actor_2.", ".name_of_the_actor_3
-endfor;
+for($i=0; $i < count($movies); $i++) {
+    echo "Dans le film " . $movies[$i]['movie_title'] . " , les principaux acteurs sont : " . $movies[$i]['name_of_the_actor_1'] . ", " . $movies[$i]['name_of_the_actor_2'] . ", " . $movies[$i]['name_of_the_actor_3'].'<br>';
+}
