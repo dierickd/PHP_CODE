@@ -40,3 +40,25 @@ mysql> SELECT * FROM school;
 
 > “Mahoutokoro School of Magic” passe à une capacité de 700
 
+mysql> UPDATE school  
+    -> SET capacity 700  
+    -> WHERE name = 'Mahoutokoro School of Magic';  
+  Query OK, 1 row affected (0.00 sec)  
+  Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM school;
+
+| id | name                                         | capacity | country        |
+|----|----------------------------------------------|----------|----------------|
+|  1 | Castelobruxo                                 |      380 | Brazil         |
+|  2 | Durmstrang Institute                         |      570 | Sweden         |
+|  3 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  4 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  5 | Koldovstoretz                                |      125 | Russia         |
+|  6 | Mahoutokoro School of Magic                  |      700 | Japan          |
+|  7 | Uagadou School of Magic                      |      350 | Uganda         |
+
+7 rows in set (0.00 sec)
+
+> Supprime en une seule requête toutes les écoles comportant “Magic” dans leur nom (il y en a 3). Tu peux t’aider du mot clé LIKE.
+
