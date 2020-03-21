@@ -51,3 +51,13 @@ mysql> SELECT firstname, lastname FROM wizard WHERE lastname='Potter' ORDER BY f
 | lily      | potter   |
 
 4 rows in set (0.00 sec)
+
+> Le prénom, nom et date de naissance du plus vieux sorcier (doit fonctionner quelque soit le contenu de la table)
+
+mysql> SELECT lastname, firstname, birthday FROM wizard ORDER BY birthday ASC LIMIT 0, 1;
+
+| lastname   | firstname | birthday   |
+|------------|-----------|------------|
+| dumbledore | albus     | 1881-07-01 |
+
+1 row in set (0.00 sec)
