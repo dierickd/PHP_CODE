@@ -37,3 +37,6 @@ mysql> SELECT * FROM school;
 |  7 | Uagadou School of Magic                      |      350 | Uganda         |
 
 7 rows in set (0.00 sec)
+
+> “Mahoutokoro School of Magic” passe à une capacité de 700
+
