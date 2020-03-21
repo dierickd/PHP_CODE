@@ -18,11 +18,11 @@ mysql> SELECT * FROM school;
 
 > “Durmstrang Institute” est en réalité en Suède (Sweden), modifie son pays.
 
-mysql> UPDATE school 
-    -> SET country = 'Sweden' 
-    -> WHERE name = 'Durmstrang Institute';
-Query OK, 1 row affected (0.00 sec)
-Rows matched: 1  Changed: 1  Warnings: 0
+mysql> UPDATE school  
+    -> SET country = 'Sweden'  
+    -> WHERE name = 'Durmstrang Institute';  
+  Query OK, 1 row affected (0.00 sec)  
+  Rows matched: 1  Changed: 1  Warnings: 0
 
 mysql> SELECT * FROM school;
 
