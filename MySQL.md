@@ -1,7 +1,7 @@
 
 ## REQUETE SQL
 
-> Récupère tous les champs pour les sorciers nés entre 1975 et 1985
+> Récupère tous les champs pour les sorciers nés entre 1975 et 1985  
 
 `mysql> SELECT * FROM wizard WHERE birthday BETWEEN '1975/01/01' AND '1985/12/31';`
 
@@ -25,3 +25,7 @@
 | 28 | dudley    | dursley  | 1980-06-23 |             | Cousin d'Harry                        |         1 |
 
 16 rows in set (0.00 sec)
+
+> Le prénom uniquement des sorciers dont le prénom commence par la lettre ‘H’  
+
+
