@@ -71,7 +71,7 @@ mysql> DELETE FROM school  WHERE name LIKE '%Magic';
 mysql> SELECT * FROM school;
 
 | id | name                                         | capacity | country        |
-+----+----------------------------------------------+----------+----------------+
+|----|----------------------------------------------|----------|----------------|
 |  2 | Castelobruxo                                 |      380 | Brazil         |
 |  3 | Durmstrang Institute                         |      570 | Sweden         |
 |  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
