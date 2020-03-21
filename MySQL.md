@@ -41,3 +41,13 @@ mysql> SELECT firstname FROM wizard WHERE firstname LIKE 'H%';
 
 > Les prénom et nom de tous les membres de la famille ‘Potter’, classés par ordre de prénom
 
+mysql> SELECT firstname, lastname FROM wizard WHERE lastname='Potter' ORDER BY firstname ASC;
+
+| firstname | lastname |
+|-----------|----------|
+| harry     | potter   |
+| harry     | potter   |
+| lily      | potter   |
+| lily      | potter   |
+
+4 rows in set (0.00 sec)
