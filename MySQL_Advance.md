@@ -65,3 +65,17 @@ mysql> SELECT * FROM school;
 
 > Supprime en une seule requête toutes les écoles comportant “Magic” dans leur nom (il y en a 3). Tu peux t’aider du mot clé LIKE.
 
+mysql> DELETE FROM school  WHERE name LIKE '%Magic';  
+  Query OK, 3 rows affected (0.01 sec)
+
+mysql> SELECT * FROM school;
+
+| id | name                                         | capacity | country        |
++----+----------------------------------------------+----------+----------------+
+|  2 | Castelobruxo                                 |      380 | Brazil         |
+|  3 | Durmstrang Institute                         |      570 | Sweden         |
+|  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  5 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  6 | Koldovstoretz                                |      125 | Russia         |
+
+5 rows in set (0.00 sec)
