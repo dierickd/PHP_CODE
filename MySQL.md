@@ -28,4 +28,16 @@
 
 > Le prénom uniquement des sorciers dont le prénom commence par la lettre ‘H’  
 
+mysql> SELECT firstname FROM wizard WHERE firstname LIKE 'H%';
+
+| firstname |
+|-----------|
+| harry     |
+| hermione  |
+| harry     |
+| hermione  |
+
+4 rows in set (0.00 sec)
+
+> Les prénom et nom de tous les membres de la famille ‘Potter’, classés par ordre de prénom
 
