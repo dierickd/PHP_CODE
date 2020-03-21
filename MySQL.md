@@ -3,7 +3,7 @@
 
 > Récupère tous les champs pour les sorciers nés entre 1975 et 1985
 
-mysql> SELECT * FROM wizard WHERE birthday BETWEEN '1975/01/01' AND '1985/12/31';
+`mysql> SELECT * FROM wizard WHERE birthday BETWEEN '1975/01/01' AND '1985/12/31';`
 
 | id | firstname | lastname | birthday   | birth_place | biography                             | is_muggle |
 | ---|-----------|----------|------------|-------------|---------------------------------------|-----------|
