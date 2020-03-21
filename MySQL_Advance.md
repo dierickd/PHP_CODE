@@ -6,15 +6,16 @@ mysql> SELECT * FROM school;
 
 | id | name                                         | capacity | country        |
 |----|----------------------------------------------|----------|----------------|
-|  1 | Castelobruxo                                 |      380 | Brazil         |
-|  2 | Durmstrang Institute                         |      570 | Norway         |
-|  3 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
-|  4 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
-|  5 | Koldovstoretz                                |      125 | Russia         |
-|  6 | Mahoutokoro School of Magic                  |      800 | Japan          |
-|  7 | Uagadou School of Magic                      |      350 | Uganda         |
+|  1 | Beauxbatons Academy of Magic                 |      350 | France         |
+|  2 | Castelobruxo                                 |      380 | Brazil         |
+|  3 | Durmstrang Institute                         |      570 | Norway         |
+|  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  5 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  6 | Koldovstoretz                                |      125 | Russia         |
+|  7 | Mahoutokoro School of Magic                  |      800 | Japan          |
+|  8 | Uagadou School of Magic                      |      350 | Uganda         |
 
-7 rows in set (0.01 sec)
+8 rows in set (0.01 sec)
 
 > “Durmstrang Institute” est en réalité en Suède (Sweden), modifie son pays.
 
@@ -28,15 +29,16 @@ mysql> SELECT * FROM school;
 
 | id | name                                         | capacity | country        |
 |----|----------------------------------------------|----------|----------------|
-|  1 | Castelobruxo                                 |      380 | Brazil         |
-|  2 | Durmstrang Institute                         |      570 | Sweden         |
-|  3 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
-|  4 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
-|  5 | Koldovstoretz                                |      125 | Russia         |
-|  6 | Mahoutokoro School of Magic                  |      800 | Japan          |
-|  7 | Uagadou School of Magic                      |      350 | Uganda         |
+|  1 | Beauxbatons Academy of Magic                 |      350 | France         |
+|  2 | Castelobruxo                                 |      380 | Brazil         |
+|  3 | Durmstrang Institute                         |      570 | Sweden         |
+|  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  5 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  6 | Koldovstoretz                                |      125 | Russia         |
+|  7 | Mahoutokoro School of Magic                  |      800 | Japan          |
+|  8 | Uagadou School of Magic                      |      350 | Uganda         |
 
-7 rows in set (0.00 sec)
+8 rows in set (0.00 sec)
 
 > “Mahoutokoro School of Magic” passe à une capacité de 700
 
@@ -50,15 +52,16 @@ mysql> SELECT * FROM school;
 
 | id | name                                         | capacity | country        |
 |----|----------------------------------------------|----------|----------------|
-|  1 | Castelobruxo                                 |      380 | Brazil         |
-|  2 | Durmstrang Institute                         |      570 | Sweden         |
-|  3 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
-|  4 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
-|  5 | Koldovstoretz                                |      125 | Russia         |
-|  6 | Mahoutokoro School of Magic                  |      700 | Japan          |
-|  7 | Uagadou School of Magic                      |      350 | Uganda         |
+|  1 | Beauxbatons Academy of Magic                 |      350 | France         |
+|  2 | Castelobruxo                                 |      380 | Brazil         |
+|  3 | Durmstrang Institute                         |      570 | Sweden         |
+|  4 | Hogwarts School of Witchcraft and Wizardry   |      450 | United Kingdom |
+|  5 | Ilvermorny School of Witchcraft and Wizardry |      300 | USA            |
+|  6 | Koldovstoretz                                |      125 | Russia         |
+|  7 | Mahoutokoro School of Magic                  |      700 | Japan          |
+|  8 | Uagadou School of Magic                      |      350 | Uganda         |
 
-7 rows in set (0.00 sec)
+8 rows in set (0.00 sec)
 
 > Supprime en une seule requête toutes les écoles comportant “Magic” dans leur nom (il y en a 3). Tu peux t’aider du mot clé LIKE.
 
